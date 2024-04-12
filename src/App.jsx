@@ -1,7 +1,9 @@
+import Search_filter from "./Components/Search_filter";
+
 const App = () => {
   return (
     <>
-      <h1 className="text-red-500">Hiii</h1>
+      <Search_filter />
     </>
   );
 };

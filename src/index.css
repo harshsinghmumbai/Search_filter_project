@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tailwindcss utility class & Vanilla Css will not apply because it is override by bootstrap class */
+.body {
+  background-color: antiquewhite;
+}
